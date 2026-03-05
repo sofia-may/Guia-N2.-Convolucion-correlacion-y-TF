@@ -7,4 +7,22 @@
 <img width="1935" height="1330" alt="parte_A_convolucion" src="https://github.com/user-attachments/assets/91bf9325-8e2c-4ea9-934d-e1a188fa690a" />
 en la imagen se muestra la grafica de h[n], la grafica de x[n] y la grafica de la convolucion entre ellas
 
-#### Conclucion
+### Conclucion
+
+## PARTE B
+
+##SOFI ACA TOCA INVESTIGA SOBRE LA CORRELACION CRUZADA Y COLOCARLO ANTES DE LA PARTE A, COMO UN MARCO TEORICO
+
+####correlacion cruzada
+
+calculamos los componentes de las dos señales y aplicamos la correlacion cruzada entre las dos.
+
+<img width="635" height="276" alt="image" src="https://github.com/user-attachments/assets/5784c1c2-eb01-4b90-9505-a9d3e1ccbb76" />
+
+
+<img width="310" height="326" alt="image" src="https://github.com/user-attachments/assets/02092b0e-2462-4b70-842f-7ae8f9853368" />
+
+graficamos los datos optenidos:
+<img width="1785" height="1330" alt="parte_B_correlacion" src="https://github.com/user-attachments/assets/c0aea5d0-edf4-42bd-ad1b-955d9cf2a268" />
+segun el "lag" evidenciamos  que en 2 es donde mas se parecen las dos señales
+
