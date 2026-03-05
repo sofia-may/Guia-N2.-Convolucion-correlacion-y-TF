@@ -5,7 +5,7 @@
 
 ### EN PYTHON
 <img width="1935" height="1330" alt="parte_A_convolucion" src="https://github.com/user-attachments/assets/91bf9325-8e2c-4ea9-934d-e1a188fa690a" />
-en la imagen se muestra la grafica de h[n], la grafica de x[n] y la grafica de la convolucion entre ellas
+en la imagen se muestra la grafica de h[n], la grafica de x[n] y la grafica de la convolucion entre ellas.
 
 ### Conclucion
 
@@ -28,5 +28,5 @@ segun el "lag" evidenciamos  que en 2 es donde mas se parecen las dos señales
 
 #### Descripcion
 
-La correlacion cruzada entre coseno y seno de la misma frecuencia produce una secuencia que refleja el desfase de 90° (π/2 rad) entre ambas señales. El valor maximo de |R_X_1X_2|
+La correlacion cruzada entre coseno y seno de la misma frecuencia produce una secuencia que refleja el desfase de 90° (π/2 rad) entre ambas señales. El valor maximo de |R X1 y X2| ocurren en el lag donde las señales tienen mayor similitud desplazada, y la secuencia es antisimetrica respecto al lag=0, lo cual es caracteristico de dos señales en cuadratura (desfasada 90°).
 
