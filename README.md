@@ -3,12 +3,12 @@
 ## Descripción
 En este repositorio se presenta el informe y los resultados de la Práctica de Laboratorio #2 de Convolución, correlación y transformada de Fourier. Se trabajó con el propósito de buscamor observar el comportamiento estadístico; determinar cómo un sistema (filtro) afecta a una señal de entrada, medir la similitud entre dos señales o encontrar un patrón oculto y ver la composición de frecuencias de una señal, pasando del dominio del tiempo al de la frecuencia.
 ### Correlación cruzada
-En el procesamiento digital de señales es fundamental analizar la relación existente entre diferentes señales para determinar similitudes, retrasos o patrones comunes. Una de las herramientas matemáticas más utilizadas para este propósito es la correlación cruzada. Esta técnica permite comparar dos señales y evaluar qué tan similares son cuando una de ellas se desplaza respecto a la otra en el tiempo. Gracias a esta propiedad, la correlación cruzada se utiliza ampliamente en áreas como las telecomunicaciones, el procesamiento de audio, el análisis de imágenes y la detección de señales en sistemas electrónicos.
+En el procesamiento digital de señales es fundamental analizar la relación existente entre diferentes señales para determinar similitudes, retrasos o patrones comunes. Una de las herramientas matemáticas más utilizadas para este propósito es la correlación cruzada. Esta técnica permite comparar dos señales y evaluar qué tan similares son cuando una de ellas se desplaza respecto a la otra en el tiempo. Gracias a esta propiedad, la correlación cruzada se utiliza ampliamente en áreas como las telecomunicaciones, el procesamiento de audio, el análisis de imágenes y la detección de señales en sistemas electrónicos [<sup>[1]</sup>](#ref-uni).
 #### Definición
-La correlación cruzada es una operación matemática que mide el grado de similitud entre dos señales en función del desplazamiento o retardo aplicado a una de ellas [<sup>[1]</sup>](#ref-Data).El resultado de esta operación es una función que indica qué tan parecidas son las señales para diferentes valores de desplazamiento.
-Para señales discretas (x[n]) y (y[n]), la correlación cruzada se define matemáticamente como [<sup>[2]</sup>](#ref-Universidad):
+La correlación cruzada es una operación matemática que mide el grado de similitud entre dos señales en función del desplazamiento o retardo aplicado a una de ellas [<sup>[2]</sup>](#ref-Data).El resultado de esta operación es una función que indica qué tan parecidas son las señales para diferentes valores de desplazamiento.
+Para señales discretas (x[n]) y (y[n]), la correlación cruzada se define matemáticamente como:
 
-<img width="306" height="42" alt="image" src="https://github.com/user-attachments/assets/bb2f9ee0-6b27-4b0f-9a17-b3e78693a189" />
+<img width="306" height="42" alt="image" src="https://github.com/user-attachments/assets/bb2f9ee0-6b27-4b0f-9a17-b3e78693a189" /> [<sup>[3]</sup>](#ref-universidad)
 
 Donde (x[n]) y (y[n]) representan las señales a comparar y (k) es el desplazamiento o retardo entre ambas señales. Cuando el valor de la correlación es máximo, significa que las señales presentan la mayor similitud posible en ese desplazamiento.
 #### Propiedades
@@ -70,5 +70,5 @@ https://datasciencepythonblog.net/correlacion-cruzada/
 * <a name="ref-universidad"></a> **Universidad Autónoma de Baja California.** (2020). Procesamiento digital de señales biofisiológicas.  
 https://citecuvp.tij.uabc.mx/bio/wp-content/uploads/2020/07/11808-Procesamiento-Digital-de-Se%C3%B1ales-Biofisiol%C3%B3gicas.pdf
 
-* <a name="ref-universidad C"></a> **Universidad Central del Ecuador.** (s.f.). Análisis de correlación cruzada en procesamiento de señales.  
+* <a name="ref-uni"></a> **Universidad Central del Ecuador.** (s.f.). Análisis de correlación cruzada en procesamiento de señales.  
 https://www.dspace.uce.edu.ec/bitstreams/77295fb1-b3d8-4b02-a060-83439c01bd7e/download
