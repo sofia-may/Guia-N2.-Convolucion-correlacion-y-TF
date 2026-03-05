@@ -63,10 +63,20 @@ La correlacion cruzada entre coseno y seno de la misma frecuencia produce una se
 ## Preguntas de discución:
 - ¿Qué utilidad poseen herramientas como la convolución y la correlación en
 áreas como procesamiento de imágenes?
+  - En el procesamiento de imágenes, estas herramientas son fundamentales para extraer información relevante de secuencias o matrices.
+    Convolución: Se utiliza principalmente para el filtrado lineal. En imágenes, esto se traduce en operaciones como el suavizado (reducción de ruido), el realce de bordes o la detección de características específicas mediante kernels.
+    Correlación: Se emplea para identificar patrones o dependencias estadísticas. En imágenes, es clave para el template matching (buscar una imagen pequeña dentro de una más grande) y para el registro o alineación de imágenes.
 - ¿En cuáles contextos de aplicación la transformada de Fourier ofrece un
 conjunto de características con mayor poder discriminativo que las que
 suelen considerarse desde el dominio temporal?
+  - La Transformada de Fourier es superior cuando la información crítica de la señal no es evidente en su amplitud a través del tiempo, sino en su composición espectral.Análisis de Señales Biológicas:
+    1. Permite identificar frecuencias específicas asociadas a ritmos fisiológicos (como en un ECG o EEG) que en el tiempo parecen ruido.
+    2. Detección de Patologías: Ciertas enfermedades alteran el espectro de frecuencia de una señal biomédica, ofreciendo un mayor poder discriminativo para el diagnóstico que el análisis temporal simple.
+    3. Filtro de Ruido Estacionario: Cuando el ruido ocurre a una frecuencia específica, es mucho más fácil identificarlo y eliminarlo en el dominio de la frecuencia.
 - ¿En qué se diferencia la correlación cruzada de la convolución?
+  - Aunque matemáticamente son muy similares, su propósito y una diferencia técnica en el cálculo las distinguen:
+    1. Propósito: La convolución busca determinar la respuesta de un sistema ante una entrada (filtrado) , mientras que la correlación funciona como una medida de similitud para encontrar qué tanto se parecen dos señales.
+    2. Inversión de la señal: En la convolución manual, una de las señales se debe invertir o "voltear" en el tiempo ($h[n-k]$) antes de deslizarla. En la correlación cruzada, las señales se comparan directamente sin invertir ninguna para ver cómo se alinean sus formas originales.
 ## Referencias:
 * <a name="ref-Data"></a> **Data Science Python Blog.** (s.f.). Correlación cruzada. Recuperado el 5 de marzo de 2026 de  
 https://datasciencepythonblog.net/correlacion-cruzada/
