@@ -30,3 +30,14 @@ segun el "lag" evidenciamos  que en 2 es donde mas se parecen las dos señales
 
 La correlacion cruzada entre coseno y seno de la misma frecuencia produce una secuencia que refleja el desfase de 90° (π/2 rad) entre ambas señales. El valor maximo de |R X1 y X2| ocurren en el lag donde las señales tienen mayor similitud desplazada, y la secuencia es antisimetrica respecto al lag=0, lo cual es caracteristico de dos señales en cuadratura (desfasada 90°).
 
+ #### ¿En que situaciones es util la correlacion cruzada?
+
+ - Deteccion de retardo entre señales: permite identificar cuanto tiempo tarda una señal en llegar a otro sensor. Por Ejemplo: localizacion de fuentes sonoras o sismicas
+   
+ - Identificacion de similitud entre señales: util para comparar una señal de referencia con una señal ruidosa y determinar si contiene el patron buscado.
+   
+ - Procesamiento de señales biomedicas: por ejemplo, para detectar relaciones entre dos canales de EEG, o entre una señal de estimulacion y la respuesta fisiológica.
+ 
+ - Radar y sonar: para estimar la distancia a un objeto correlacionando la señal emitida con el eco recibido.
+ 
+ -   Comunicaciones: para sincronizacion y deteccion de señales en presencia de ruido e interferencias.
