@@ -32,10 +32,7 @@ en la imagen se muestra la grafica de h[n], la grafica de x[n] y la grafica de l
 ### Conclucion
 
 ## PARTE B
-
-## SOFI ACA TOCA INVESTIGA SOBRE LA CORRELACION CRUZADA Y COLOCARLO ANTES DE LA PARTE A, COMO UN MARCO TEORICO
-
-#### correlacion cruzada
+### Correlación cruzada
 
 calculamos los componentes de las dos señales y aplicamos la correlacion cruzada entre las dos.
 
@@ -48,11 +45,11 @@ graficamos los datos optenidos:
 <img width="1785" height="1330" alt="parte_B_correlacion" src="https://github.com/user-attachments/assets/c0aea5d0-edf4-42bd-ad1b-955d9cf2a268" />
 segun el "lag" evidenciamos  que en 2 es donde mas se parecen las dos señales
 
-#### Descripcion
+#### Descripción
 
 La correlacion cruzada entre coseno y seno de la misma frecuencia produce una secuencia que refleja el desfase de 90° (π/2 rad) entre ambas señales. El valor maximo de |R X1 y X2| ocurren en el lag donde las señales tienen mayor similitud desplazada, y la secuencia es antisimetrica respecto al lag=0, lo cual es caracteristico de dos señales en cuadratura (desfasada 90°).
 
- #### ¿En que situaciones es util la correlacion cruzada?
+ #### ¿En que situaciones es útil la correlación cruzada?
 
  - Deteccion de retardo entre señales: permite identificar cuanto tiempo tarda una señal en llegar a otro sensor. Por Ejemplo: localizacion de fuentes sonoras o sismicas
    
@@ -63,6 +60,13 @@ La correlacion cruzada entre coseno y seno de la misma frecuencia produce una se
  - Radar y sonar: para estimar la distancia a un objeto correlacionando la señal emitida con el eco recibido.
  
  -   Comunicaciones: para sincronizacion y deteccion de señales en presencia de ruido e interferencias.
+## Preguntas de discución:
+- ¿Qué utilidad poseen herramientas como la convolución y la correlación en
+áreas como procesamiento de imágenes?
+- ¿En cuáles contextos de aplicación la transformada de Fourier ofrece un
+conjunto de características con mayor poder discriminativo que las que
+suelen considerarse desde el dominio temporal?
+- ¿En qué se diferencia la correlación cruzada de la convolución?
 ## Referencias:
 * <a name="ref-Data"></a> **Data Science Python Blog.** (s.f.). Correlación cruzada. Recuperado el 5 de marzo de 2026 de  
 https://datasciencepythonblog.net/correlacion-cruzada/
