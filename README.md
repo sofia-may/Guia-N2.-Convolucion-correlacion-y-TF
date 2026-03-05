@@ -63,7 +63,10 @@ La correlacion cruzada entre coseno y seno de la misma frecuencia produce una se
 
 ## PARTE C
 
+<img width="1937" height="744" alt="grafica_senal_capturada_20260305_140950" src="https://github.com/user-attachments/assets/1545fc86-7714-4eca-857c-8847989e9d56" />
 
+
+Se obtuvo una señal de EOG con la cual se hicieron las distintas operaiones mostradas acontinuacion.
 
 ## Preguntas de discución:
 - ¿Qué utilidad poseen herramientas como la convolución y la correlación en
