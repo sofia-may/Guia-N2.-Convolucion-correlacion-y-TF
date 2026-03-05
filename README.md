@@ -11,9 +11,9 @@ en la imagen se muestra la grafica de h[n], la grafica de x[n] y la grafica de l
 
 ## PARTE B
 
-##SOFI ACA TOCA INVESTIGA SOBRE LA CORRELACION CRUZADA Y COLOCARLO ANTES DE LA PARTE A, COMO UN MARCO TEORICO
+## SOFI ACA TOCA INVESTIGA SOBRE LA CORRELACION CRUZADA Y COLOCARLO ANTES DE LA PARTE A, COMO UN MARCO TEORICO
 
-####correlacion cruzada
+#### correlacion cruzada
 
 calculamos los componentes de las dos señales y aplicamos la correlacion cruzada entre las dos.
 
@@ -25,4 +25,8 @@ calculamos los componentes de las dos señales y aplicamos la correlacion cruzad
 graficamos los datos optenidos:
 <img width="1785" height="1330" alt="parte_B_correlacion" src="https://github.com/user-attachments/assets/c0aea5d0-edf4-42bd-ad1b-955d9cf2a268" />
 segun el "lag" evidenciamos  que en 2 es donde mas se parecen las dos señales
+
+#### Descripcion
+
+La correlacion cruzada entre coseno y seno de la misma frecuencia produce una secuencia que refleja el desfase de 90° (π/2 rad) entre ambas señales. El valor maximo de |R_X_1X_2|
 
