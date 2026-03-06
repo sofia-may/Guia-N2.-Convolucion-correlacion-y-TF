@@ -79,6 +79,9 @@ Se obtuvo una señal de EOG con la cual se hicieron las distintas operaiones mos
 ### Diagrama de flujo
 <img width="422" height="2207" alt="diagrama de flujo - visual selection (3)" src="https://github.com/user-attachments/assets/c05e9aa2-ca75-443b-a7c5-b9db24f46a91" />
 
+### Datos clave:
+<img width="640" height="715" alt="image" src="https://github.com/user-attachments/assets/1789ad5a-d0f6-44c1-ba6a-8842ef34565c" />
+
 ## Preguntas de discución:
 - ¿Qué utilidad poseen herramientas como la convolución y la correlación en
 áreas como procesamiento de imágenes?
