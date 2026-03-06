@@ -29,7 +29,8 @@ La correlación cruzada posee varias propiedades importantes en el análisis de 
 <img width="1935" height="1330" alt="parte_A_convolucion" src="https://github.com/user-attachments/assets/91bf9325-8e2c-4ea9-934d-e1a188fa690a" />
 en la imagen se muestra la grafica de h[n], la grafica de x[n] y la grafica de la convolucion entre ellas.
 
-### Conclucion
+### Diagrama de flujo
+<img width="1272" height="671" alt="image" src="https://github.com/user-attachments/assets/0e6ac14c-b29b-4446-a034-a47f5ede0d56" />
 
 ## PARTE B
 ### Correlación cruzada
