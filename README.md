@@ -76,6 +76,8 @@ La correlacion cruzada entre coseno y seno de la misma frecuencia produce una se
 
 
 Se obtuvo una señal de EOG con la cual se hicieron las distintas operaiones mostradas acontinuacion.
+### Diagrama de flujo
+<img width="422" height="2207" alt="diagrama de flujo - visual selection (3)" src="https://github.com/user-attachments/assets/c05e9aa2-ca75-443b-a7c5-b9db24f46a91" />
 
 ## Preguntas de discución:
 - ¿Qué utilidad poseen herramientas como la convolución y la correlación en
