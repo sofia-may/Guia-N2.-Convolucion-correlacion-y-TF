@@ -79,6 +79,8 @@ Se obtuvo una señal de EOG con la cual se hicieron las distintas operaiones mos
 
 En base a esta señal se hicieron los siguentes calculos y graficas.
 
+<img width="496" height="278" alt="image" src="https://github.com/user-attachments/assets/f709576a-e13d-4c06-84db-9149bd23a8fd" />
+
 <img width="1337" height="744" alt="grafica_histograma_capturado_20260305_140950" src="https://github.com/user-attachments/assets/c4d95fbf-f993-4785-b52e-85e10fc66276" />
 
 <img width="737" height="889" alt="grafica_boxplot_capturado_20260305_140950" src="https://github.com/user-attachments/assets/68b237e6-22e2-4340-8a93-cd4d8e59cce8" />
@@ -106,7 +108,16 @@ La señal capturada es DIGITAL porque:
 - Los valores de amplitud fueron cuantizados a valores numéricos finitos (resolución del ADC)
 - El resultado es un arreglo de N = {total_muestras} números almacenados en memoria
 
-#### Se aplico fourier a la señal y se obtuvo esto: 
+### Se aplico fourier a la señal y se obtuvo esto: 
+
+<img width="1935" height="1036" alt="grafica_fourier_20260305_140950" src="https://github.com/user-attachments/assets/7955ba5e-60a6-440d-a8ef-4cb7ca9fce93" />
+<img width="1937" height="744" alt="grafica_psd_20260305_140950" src="https://github.com/user-attachments/assets/b14bfc41-3bd4-453f-b46b-147e57211463" />
+
+<img width="1485" height="744" alt="grafica_histograma_frecuencias_20260305_140950" src="https://github.com/user-attachments/assets/8df123c6-bba1-4010-8c2d-5c1d01ee372f" />
+
+
+
+
 
 ### Diagrama de flujo
 <img width="422" height="2207" alt="diagrama de flujo - visual selection (3)" src="https://github.com/user-attachments/assets/c05e9aa2-ca75-443b-a7c5-b9db24f46a91" />
