@@ -67,6 +67,9 @@ La correlacion cruzada entre coseno y seno de la misma frecuencia produce una se
 ### Diagrama de flujo 
 <img width="737" height="496" alt="image" src="https://github.com/user-attachments/assets/6ed9fc70-07bc-414b-8801-0e0d888b32eb" />
 
+### Datos clave:
+<img width="822" height="281" alt="image" src="https://github.com/user-attachments/assets/4c933978-0c52-4078-943c-9b943d1191f6" />
+
 ## PARTE C
 
 <img width="1937" height="744" alt="grafica_senal_capturada_20260305_140950" src="https://github.com/user-attachments/assets/1545fc86-7714-4eca-857c-8847989e9d56" />
