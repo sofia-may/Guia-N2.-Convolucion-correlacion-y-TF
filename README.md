@@ -32,6 +32,9 @@ en la imagen se muestra la grafica de h[n], la grafica de x[n] y la grafica de l
 ### Diagrama de flujo
 <img width="1272" height="671" alt="image" src="https://github.com/user-attachments/assets/0e6ac14c-b29b-4446-a034-a47f5ede0d56" />
 
+### Datos clave:
+<img width="553" height="343" alt="image" src="https://github.com/user-attachments/assets/8d215a85-32bc-4d65-a95a-91cc60f9e6c5" />
+
 ## PARTE B
 ### Correlación cruzada
 
