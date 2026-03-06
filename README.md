@@ -110,10 +110,19 @@ La señal capturada es DIGITAL porque:
 
 ### Se aplico fourier a la señal y se obtuvo esto: 
 
+Grafica de la transdormada de fourier.
+
 <img width="1935" height="1036" alt="grafica_fourier_20260305_140950" src="https://github.com/user-attachments/assets/7955ba5e-60a6-440d-a8ef-4cb7ca9fce93" />
+
+Grafica de su densidad espectral de potencia.
+
 <img width="1937" height="744" alt="grafica_psd_20260305_140950" src="https://github.com/user-attachments/assets/b14bfc41-3bd4-453f-b46b-147e57211463" />
 
+Se optuvo la frecuencia media, mediana, Desv. estandar.
+
 <img width="1485" height="744" alt="grafica_histograma_frecuencias_20260305_140950" src="https://github.com/user-attachments/assets/8df123c6-bba1-4010-8c2d-5c1d01ee372f" />
+<img width="391" height="73" alt="image" src="https://github.com/user-attachments/assets/4e3d38bc-a63b-46c6-9d4c-b743d178c0a3" />
+
 
 
 
