@@ -41,7 +41,7 @@ calculamos los componentes de las dos señales y aplicamos la correlacion cruzad
 
 <img width="310" height="326" alt="image" src="https://github.com/user-attachments/assets/02092b0e-2462-4b70-842f-7ae8f9853368" />
 
-graficamos los datos optenidos:
+graficamos los datos obtenidos:
 <img width="1785" height="1330" alt="parte_B_correlacion" src="https://github.com/user-attachments/assets/c0aea5d0-edf4-42bd-ad1b-955d9cf2a268" />
 segun el "lag" evidenciamos  que en 2 es donde mas se parecen las dos señales
 
