@@ -64,6 +64,8 @@ La correlacion cruzada entre coseno y seno de la misma frecuencia produce una se
  - Radar y sonar: para estimar la distancia a un objeto correlacionando la señal emitida con el eco recibido.
  
  -   Comunicaciones: para sincronizacion y deteccion de señales en presencia de ruido e interferencias.
+### Diagrama de flujo 
+<img width="737" height="496" alt="image" src="https://github.com/user-attachments/assets/6ed9fc70-07bc-414b-8801-0e0d888b32eb" />
 
 ## PARTE C
 
