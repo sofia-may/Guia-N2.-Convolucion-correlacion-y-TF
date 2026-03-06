@@ -76,6 +76,38 @@ La correlacion cruzada entre coseno y seno de la misma frecuencia produce una se
 
 
 Se obtuvo una señal de EOG con la cual se hicieron las distintas operaiones mostradas acontinuacion.
+
+En base a esta señal se hicieron los siguentes calculos y graficas.
+
+<img width="1337" height="744" alt="grafica_histograma_capturado_20260305_140950" src="https://github.com/user-attachments/assets/c4d95fbf-f993-4785-b52e-85e10fc66276" />
+
+<img width="737" height="889" alt="grafica_boxplot_capturado_20260305_140950" src="https://github.com/user-attachments/assets/68b237e6-22e2-4340-8a93-cd4d8e59cce8" />
+
+### Clasifique la señal según su tipo (determinística/aleatoria, periódica/aparádica, analógica/digital). 
+
+1. DETERMINÍSTICA / ALEATORIA:
+Una señal determinística puede describirse completamente con una expresión matemática (ej: sen(2πft)). Una señal aleatoria NO puede predecirse con exactitud en el tiempo.
+La señal capturada es ALEATORIA porque:
+- Proviene de un proceso fisiológico (actividad biológica)
+- Su valor exacto en un instante futuro es impredeciblePresenta variabilidad natural entre ciclos
+- Solo puede describirse mediante estadísticos (media, desviación estándar, distribución de probabilidad)
+
+2. PERIÓDICA / APERIÓDICA:
+Una señal periódica cumple estrictamente x(t) = x(t+T) para todo t. Una señal aperiódica no tiene ningún patrón repetitivo.
+La señal capturada es CUASIPERIÓDICA porque:
+- Tiene un patrón que se repite aproximadamente (ciclos biológicos recognocibles)
+- El período varía ligeramente entre ciclo y ciclo No cumple x(t) = x(t+T) de forma exacta
+- Es característica de señales fisiológicas como ECG, EEG o respiración
+
+3. ANALÓGICA / DIGITAL
+Una señal analógica es continua en tiempo y amplitud, en cambio, una señal digital es discreta en tiempo y amplitud.
+La señal capturada es DIGITAL porque:
+- La señal original del generador era analógicaEl ADC de la DAQ la muestreó a Fs = {FS} Hz, discretizándola en el tiempo cada Ts = {1/FS*1000:.2f} ms
+- Los valores de amplitud fueron cuantizados a valores numéricos finitos (resolución del ADC)
+- El resultado es un arreglo de N = {total_muestras} números almacenados en memoria
+
+#### Se aplico fourier a la señal y se obtuvo esto: 
+
 ### Diagrama de flujo
 <img width="422" height="2207" alt="diagrama de flujo - visual selection (3)" src="https://github.com/user-attachments/assets/c05e9aa2-ca75-443b-a7c5-b9db24f46a91" />
 
